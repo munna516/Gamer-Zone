@@ -29,4 +29,8 @@
     .gamer-container p {
         text-align: center;
     }
+
+    .online-games-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
