@@ -1,18 +1,41 @@
 @media screen and (max-width:576px) {
 
-    body{
+    body {
         padding: 20px;
     }
-    .navbar,
-    .banner-container {
+
+    .navbar {
         flex-direction: column;
         gap: 50px;
     }
 
-    .nav-right>ul {
+    .banner-container {
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+
+    .nav-right>ul,
+    .gamer-container {
         flex-direction: column;
         gap: 36px;
     }
 
-    .
+    .gamer-image img {
+        width: 100%;
+    }
+
+    #gamer-content-button {
+        justify-content: center;
+    }
+
+    .purpose {
+        font-size: 1.4rem;
+    }
+
+    .gamer-content h2,
+    .gamer-container p {
+        text-align: center;
+    }
+
+
 }

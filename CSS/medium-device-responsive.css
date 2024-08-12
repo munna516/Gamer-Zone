@@ -8,4 +8,25 @@
         flex-direction: column;
         gap: 50px;
     }
+
+    .gamer-container {
+        flex-direction: column-reverse;
+    }
+
+    .gamer-image img {
+        width: 100%;
+    }
+
+    #gamer-content-button {
+        justify-content: center;
+    }
+
+    .purpose {
+        font-size: 2rem;
+    }
+
+    .gamer-content h2,
+    .gamer-container p {
+        text-align: center;
+    }
 }
