@@ -1,0 +1,11 @@
+@media screen and (max-width:576px) {
+    .navbar {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .nav-right>ul {
+        flex-direction: column;
+        gap: 36px;
+    }
+}
