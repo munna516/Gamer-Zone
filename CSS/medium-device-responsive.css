@@ -1,5 +1,10 @@
 @media screen and (min-width:576px) and (max-width:992px) {
-    .navbar {
+    body {
+        padding: 20px;
+    }
+
+    .navbar,
+    .banner-container {
         flex-direction: column;
         gap: 50px;
     }
