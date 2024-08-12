@@ -4,7 +4,8 @@
     }
 
     .navbar,
-    .banner-container {
+    .banner-container,
+    .play-instant-container {
         flex-direction: column;
         gap: 50px;
     }
@@ -32,5 +33,14 @@
 
     .online-games-container {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .play-instant-text {
+        padding-left: 0px;
+    }
+
+    .play-instant-image-inside {
+        top: 60%;
+        left: -10%;
     }
 }

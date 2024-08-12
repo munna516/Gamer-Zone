@@ -4,7 +4,8 @@
         padding: 20px;
     }
 
-    .navbar {
+    .navbar,
+    .play-instant-container {
         flex-direction: column;
         gap: 50px;
     }
@@ -41,4 +42,20 @@
         grid-template-columns: repeat(1, 1fr);
     }
 
+    .play-instant-image>img {
+        width: 100%;
+    }
+
+    .play-instant-image-inside>img {
+        width: 50%;
+    }
+
+    .play-instant-text {
+        padding-left: 0px;
+    }
+
+    .play-instant-image-inside {
+        top: 65%;
+        left: -5%;
+    }
 }
