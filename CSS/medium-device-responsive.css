@@ -73,4 +73,16 @@
         padding-top: 30px;
         padding-bottom: 30px;
     }
+    .p-games {
+        gap: 10px;
+    }
+
+    .p-games img {
+        width: 35px;
+    }
+
+    .p-games p {
+        font-size: 1rem;
+        font-weight: 500;
+    }
 }

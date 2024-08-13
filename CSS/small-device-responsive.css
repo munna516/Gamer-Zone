@@ -79,4 +79,18 @@
         padding-top: 30px;
         padding-bottom: 30px;
     }
+
+    
+    .p-games {
+        gap: 5px;
+    }
+
+    .p-games img {
+        width: 25px;
+    }
+
+    .p-games p {
+        font-size: .8rem;
+        font-weight: 500;
+    }
 }

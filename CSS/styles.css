@@ -422,3 +422,37 @@
 .career-content {
     width: 50%;
 }
+
+/* Popular Games */
+#popular-game {
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.popular-game-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-games {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 10px 20px 10px 10px;
+}
+
+.popular-game-description {
+    color: rgb(11, 2, 35);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.p-games:hover {
+    outline: 4px solid rgb(255, 66, 165);
+    border-radius: 50px;
+    cursor: pointer;
+}
