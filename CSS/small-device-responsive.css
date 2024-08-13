@@ -42,20 +42,20 @@
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .play-instant-image>img {
+
+    .play-instant-text {
         width: 100%;
     }
 
-    .play-instant-image-inside>img {
-        width: 50%;
+    .play-instant-image {
+        width: 80%;
+    }
+    .play-instant-image .cat {
+     
+        width: 150px;
+        height: 150px;
+        left: -55px;
+        bottom: -50px;
     }
 
-    .play-instant-text {
-        padding-left: 0px;
-    }
-
-    .play-instant-image-inside {
-        top: 65%;
-        left: -5%;
-    }
 }
