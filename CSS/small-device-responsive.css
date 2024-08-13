@@ -1,11 +1,15 @@
 @media screen and (max-width:576px) {
 
-    body {
+    #header,
+    #play-instant,
+    #online-game,
+    #Gamer {
         padding: 20px;
     }
 
     .navbar,
-    .play-instant-container {
+    .play-instant-container,
+    .career-container {
         flex-direction: column;
         gap: 50px;
     }
@@ -50,12 +54,29 @@
     .play-instant-image {
         width: 80%;
     }
+
     .play-instant-image .cat {
-     
+
         width: 150px;
         height: 150px;
-        left: -55px;
+        left: -50px;
         bottom: -50px;
     }
 
+    .career-content {
+        width: 90%;
+    }
+
+    .career-image {
+        width: 100%;
+    }
+
+    .career-image img {
+        width: 100%;
+    }
+
+    .career-container {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
 }

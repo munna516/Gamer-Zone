@@ -1,11 +1,16 @@
 @media screen and (min-width:576px) and (max-width:992px) {
-    body {
+
+    #header,
+    #play-instant,
+    #online-game,
+    #Gamer {
         padding: 20px;
     }
 
     .navbar,
     .banner-container,
-    .play-instant-container {
+    .play-instant-container,
+    .career-container {
         flex-direction: column;
         gap: 50px;
     }
@@ -50,5 +55,22 @@
         height: 200px;
         left: -90px;
         bottom: -50px;
+    }
+
+    .career-content {
+        width: 90%;
+    }
+
+    .career-image {
+        width: 100%;
+    }
+
+    .career-image img {
+        width: 100%;
+    }
+
+    .career-container {
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
 }
